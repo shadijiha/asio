@@ -1,6 +1,6 @@
 
 -- IMPORTANT: do NOT delete any GEN: comments. They are used by the CLI to generate the project.
-project "shado-bin-serialization"
+project "asio"
     kind ("StaticLib")
     language "C++"
     cppdialect "C++11"
@@ -38,13 +38,10 @@ project "shado-bin-serialization"
         }
 
     filter "configurations:Debug"
-        defines "SHADO_DEBUG"
         symbols "On"
 
     filter "configurations:Release"
-        defines "SHADO_RELEASE"
         optimize "On"
 
     filter "configurations:Dist"
-        defines "SHADO_DIST"
         optimize "Full"

@@ -1,0 +1,24 @@
+
+# Binaries
+**/bin/
+bin-int/
+
+# Log files
+*.log
+*.tlog
+*.cache
+
+# Visual Studio files and folder
+.vs/
+.idea
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+**.csproj
+**.csproj.filters
+**.csproj.user
+
+**/imgui.ini
+    
