@@ -1,7 +1,7 @@
 
 -- IMPORTANT: do NOT delete any GEN: comments. They are used by the CLI to generate the project.
 project "shado-bin-serialization"
-    kind (app_type or "StaticLib")
+    kind ("StaticLib")
     language "C++"
     cppdialect "C++11"
     staticruntime "off"
